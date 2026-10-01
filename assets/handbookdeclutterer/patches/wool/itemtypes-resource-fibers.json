@@ -1,0 +1,20 @@
+[
+  {
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "handbook": {
+        "groupBy": [
+          "fibers-{type}-*"
+        ]
+      }
+    },
+    "file": "wool:itemtypes/resource/fibers.json",
+    "dependsOn": [
+      {
+        "modid": "wool"
+      }
+    ],
+    "side": "server"
+  }
+]
