@@ -5,7 +5,7 @@
     "value": {
       "handbook": {
         "groupBy": [
-          "@embraced-quartz-(?!up-|down-).+"
+          "@embraced-quartz-(?!(?:up|down|left|right|upleft|upright)-).+"
         ]
       }
     },

@@ -1,12 +1,21 @@
 [
   {
     "op": "addMerge",
-    "path": "/attributes",
+    "path": "/attributesByType",
     "value": {
-      "handbook": {
-        "groupBy": [
-          "plugandfeather-*"
-        ]
+      "*-admin-*": {
+        "handbook": {
+          "groupBy": [
+            "plugandfeather-admin-*"
+          ]
+        }
+      },
+      "*": {
+        "handbook": {
+          "groupBy": [
+            "@plugandfeather-(?!admin-).+"
+          ]
+        }
       }
     },
     "file": "stonequarry:blocktypes/plugandfeather.json",

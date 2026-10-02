@@ -1,14 +1,10 @@
 [
   {
-    "op": "addMerge",
-    "path": "/attributes",
-    "value": {
-      "handbook": {
-        "groupBy": [
-          "fibers-{type}-*"
-        ]
-      }
-    },
+    "op": "replace",
+    "path": "/attributes/handbook/groupBy",
+    "value": [
+      "fibers-{type}-*"
+    ],
     "file": "wool:itemtypes/resource/fibers.json",
     "dependsOn": [
       {

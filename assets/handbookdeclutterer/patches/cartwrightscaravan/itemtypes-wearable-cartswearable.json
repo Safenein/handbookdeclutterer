@@ -5,7 +5,7 @@
     "value": {
       "handbook": {
         "groupBy": [
-          "cartswearable-{type}-{form}-*"
+          "@cartswearable-{type}-{form}-(?<!primitive-).+"
         ]
       }
     },
