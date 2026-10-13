@@ -1,28 +1,12 @@
 [
   {
     "op": "addMerge",
-    "path": "/attributesByType",
+    "path": "/attributes",
     "value": {
-      "*-cloth-*": {
-        "handbook": {
-          "groupBy": [
-            "cartsign-*-cloth-*"
-          ]
-        }
-      },
-      "*-glass-*": {
-        "handbook": {
-          "groupBy": [
-            "cartsign-*-glass-*"
-          ]
-        }
-      },
-      "*-wood-*": {
-        "handbook": {
-          "groupBy": [
-            "cartsign-*-wood-*"
-          ]
-        }
+      "handbook": {
+        "groupBy": [
+          "cartsign-*-*-{background}-*"
+        ]
       }
     },
     "file": "cartwrightscaravan:itemtypes/wearable/cartsign.json",

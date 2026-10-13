@@ -4,9 +4,11 @@
     "path": "/attributes",
     "value": {
       "handbook": {
-        "groupBy": [
-          "@cartswearable-{type}-{form}-(?<!primitive-).+"
-        ]
+        "groupByByType": {
+          "@cartswearable-[^-]+-(?!primitive-).+": [
+            "cartswearable-{type}-{form}-*"
+          ]
+        }
       }
     },
     "file": "cartwrightscaravan:itemtypes/wearable/cartswearable.json",

@@ -1,18 +1,14 @@
 [
   {
     "op": "addMerge",
-    "path": "/attributesByType",
+    "path": "/attributes",
     "value": {
-      "*-admin-*": {
-        "handbook": {
-          "groupBy": [
+      "handbook": {
+        "groupByByType": {
+          "*-admin-*": [
             "plugandfeather-admin-*"
-          ]
-        }
-      },
-      "*": {
-        "handbook": {
-          "groupBy": [
+          ],
+          "*": [
             "@plugandfeather-(?!admin-).+"
           ]
         }
